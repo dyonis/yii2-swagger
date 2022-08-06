@@ -1,0 +1,30 @@
+{
+  "name": "dyonis/yii2-swagger",
+  "description": "OA3 swagger module for Yii2",
+  "type": "library",
+  "keywords": ["yii2","extension","swagger","Restful","document", "OA3"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denys Shpuhanych"
+    }
+  ],
+  "dependencies": {
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "require": {
+    "bower-asset/swagger-ui": "^4.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "dyonis\\yii2\\swagger\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
